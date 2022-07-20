@@ -3,6 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url(./images/jacob-dyer-m9_Hk36qomk-unsplash.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
 }
 
 .header {
@@ -12,12 +14,17 @@ body {
     color: #1f2937;
     font-size: 24px;
     background-image: url(./images/oppo-find-x5-pro-Tljm4NCEqvI-unsplash.jpg);
+    justify-content: space-between;
 }
 
 .top-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.top-links .logo {
+    padding-left: 240px;
 }
 
 a {
@@ -33,6 +40,7 @@ ul {
 
 .right-links {
     display: flex;
+    padding-right: 220px;
 }
 
 .below {
@@ -40,11 +48,7 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 100px;
-}
-
-.top-links, .below {
-    width: 75vw;
-    padding: 50px 300px;
+    padding: 25px;
 }
 
 .left h1 {
