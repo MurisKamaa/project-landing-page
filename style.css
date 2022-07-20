@@ -2,8 +2,181 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-image: url(./images/jacob-dyer-m9_Hk36qomk-unsplash.jpg);
 }
 
 .header {
     display: flex;
+    flex-direction: column;
+    /* background-color: #1f2937; */
+    color: #1f2937;
+    font-size: 24px;
+    background-image: url(./images/oppo-find-x5-pro-Tljm4NCEqvI-unsplash.jpg);
+}
+
+.top-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.right-links {
+    display: flex;
+}
+
+.below {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.top-links, .below {
+    width: 75vw;
+    padding: 50px 300px;
+}
+
+.left h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.image {
+    background-color: #E5E7EB;
+    color: black;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.info h2 {
+    text-align: center;
+    padding: 25px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+div.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url(./images/pexels-marina-leonova-7631262.jpg);
+    margin-bottom: 0;
+}
+
+div.rands {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.here {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 300px;
+    border: 2px solid rgb(236, 224, 224);
+    transform: border 5s;
+    margin-bottom: 25px;
+}
+
+.here:hover {
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.image-here {
+    width: 200px;
+    height: 200px;
+    background-color: #1f2937;
+    border-radius: 20px;
+}
+
+.desc {
+    text-align: center;
+    width: 200px;
+    font-size: 24px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: red;
+    font-weight: bolder;
+    font-size: 36px;
+    background-image: url(./images/thor.jpg);
+    background-origin: content-box;
+    margin-top: 0;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.quote .q {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 600px;
+    padding-top: 25px;
+}
+
+.quote .say {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+    padding-bottom: 25px;
+}
+
+.sign-up {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 20px;
+    margin: 50px 200px;
+    background-image: url(./images/pexels-marina-leonova-7631262.jpg);
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 25px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 1px solid;
+    border-color: inherit;
+    border-radius: 5px;
+    color: #E5E7EB;
+    cursor: pointer;
 }
